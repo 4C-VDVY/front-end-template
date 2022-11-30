@@ -34,7 +34,7 @@ export default function LandingPage(props) {
       <Header
         color="transparent"
         routes={dashboardRoutes}
-        brand="NextJS Material Kit"
+        brand="AI Digital Marketer"
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
@@ -46,8 +46,8 @@ export default function LandingPage(props) {
       <Parallax filter responsive image="/img/landing-bg.jpg">
         <div className={classes.container}>
           <GridContainer>
-            <GridItem xs={12} sm={12} md={6}>
-              <h1 className={classes.title}>Your Story Starts With Us.</h1>
+            <GridItem xs={12} sm={12} md={7}>
+              <h1 className={classes.title}>Your Marketing journey starts here.</h1>
               <h4>
                 Every landing page needs a small description after the big bold
                 title, that{"'"}s why we added this text here. Add here all the
